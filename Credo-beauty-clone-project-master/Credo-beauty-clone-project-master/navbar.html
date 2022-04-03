@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script
+    src="https://kit.fontawesome.com/7b63b22604.js" crossorigin="anonymous" > 
+        </script>
+
+
+</head>
+
+<style>
+          /* -------------------navbar start -----------------*/
+      #sticky{
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+           top: 0;
+           background-color: #fff;
+      }
+
+
+
+    .AnimationPart {
+         height: 40px;
+         width: 100%;
+         margin-top: 0px;
+         overflow: hidden;
+         font-family: "Poppins", sans-serif;
+         background-color: teal;
+       }
+       .AnimationPart {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 17px;
+         font-weight: 550;
+         color: rgb(226, 215, 215);
+        
+       }
+       .AnimationPart::after {
+         content: " ";
+         color: white;
+         background-color: teal;
+         animation: textrotate 2s linear infinite;
+         -webkit-animation: textrotate 2s linear infinite;
+       }
+       @keyframes textrotate {
+         0% {
+           content: "In-Store and Online Use Card: CLEAN10 For 10% OFF 1st purchase || details ";
+         }
+         100% {
+           content: "Free Shiping over $50 | Refer a freind and get $10";
+         }
+        }
+
+        .NavigationBar {
+        width: 100%;
+        height: 110px;
+        border: 3 px solid red;
+      }
+      #upper1 {
+        display: grid;
+        grid-template-columns: 2fr 4fr 2fr;
+
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 75px;
+
+        
+      } 
+
+      #lefttext {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      #lefttext > div:hover {
+        color: brown;
+        border-bottom: 2px solid brown;
+      }
+      #lefttext > div {
+        padding: 8px;
+      }
+      #righttext {
+        margin: 6px;
+        color: gray;
+      }
+      #righttext > button {
+        border: 2px;
+      }
+      #middle1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #lower {
+        width: 100%;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+      }
+      #lower > div {
+        padding: 10px;
+        font-weight: 650;
+      }
+      #lower > div:last-child {
+        color: teal;
+      }
+      #lower > div:hover {
+        color: brown;
+        border-bottom: 2px solid brown;
+      }
+      #logocenter {
+        height: 72px;
+      }
+
+      i{
+         margin-left: 12px;
+          cursor: pointer;
+      }
+
+        /* -------------------navbar end -----------------*/
+    </style>
+
+<body>   
+        
+        <div id="sticky">
+    <div class="AnimationPart">
+        <h1> </h1>
+      </div>
+     
+      <div class="NavigationBar">
+        <div id="upper1">
+          <div id="lefttext">
+            <div><b>Stored And Services</b></div>
+            <div> <b>Rewards</b>
+            </div>
+            <div><b>Chat Live</b></div>
+          </div>
+          <div id="middle1">
+            <a href="home.html">
+              <img
+              id="logocenter"
+              src="images.jpg"  
+            alt="logo"
+            />
+            </a>
+          </div>
+          <div id="rigthtext1">
+            <i class="fas fa-search" ></i>
+            <input type="text" id="serchbar" placeholder="Serach" />
+            <abbr title="LogIn || SignUp"><a id="i1" onclick="window.location.href='signup.html'"
+              ><i class="far fa-user"></i
+            ></a></abbr>
+           <abbr title="Wishlist"> <a  onclick="window.location.href='wishlist.html'"
+            ><i class="far fa-heart"></i
+          ></a></abbr>
+           <abbr title="Cart"> <a  onclick="window.location.href='cart.html'"
+            ><i class="fas fa-shopping-cart"></i
+          ></a></abbr>
+          </div>
+        </div>
+        <div id="lower">
+            <div onclick="window.location.href='#'">BestSellers</div>
+            <div onclick="window.location.href='#'">New</div>
+            <div onclick="window.location.href='#'">Brands</div>
+            <div onclick="window.location.href='#'">SkinCare</div>
+            <div onclick="window.location.href='makeup.html'">Makeup</div>
+            <div onclick="window.location.href='hairs.html'">Hair</div>
+            <div onclick="window.location.href='#'">Bath & Body</div>
+            <div onclick="window.location.href='Fragrance.html'">Fragrance</div>
+            <div onclick="window.location.href='#'">Gift</div>
+            <div onclick="window.location.href='#'">Sale</div>
+            <div onclick="window.location.href='#'">Featured</div>
+            <div onclick="window.location.href=''">Why Clean?</div>
+          </div>
+        </div>
+    </div>
+      
+
+
+</body>
+</html>

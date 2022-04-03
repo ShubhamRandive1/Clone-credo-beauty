@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Fragrance.css">
+    <script
+    src="https://kit.fontawesome.com/7b63b22604.js" crossorigin="anonymous" > 
+        </script>   
+</head>
+<body>
+       
+  <div id="sticky">
+    <div class="AnimationPart">
+        <h1> </h1>
+      </div>
+     
+      <div class="NavigationBar">
+        <div id="upper1">
+          <div id="lefttext">
+            <div><b>Stored And Services</b></div>
+            <div> <b>Rewards</b>
+            </div>
+            <div><b>Chat Live</b></div>
+          </div>
+          <div id="middle1">
+            <a href="index.html">
+              <img
+              id="logocenter"
+              src="images.jpg"  
+            alt="logo"
+            />
+            </a>
+          </div>
+          <div id="rigthtext1">
+            <i class="fas fa-search" ></i>
+            <input type="text" id="serchbar" placeholder="Serach" />
+            <abbr title="LogIn || SignUp"><a id="i1" onclick="window.location.href='signup.html'"
+              ><i class="far fa-user"></i
+            ></a></abbr>
+           <abbr title="Wishlist"> <a  onclick="window.location.href='wishlist.html'"
+            ><i class="far fa-heart"></i
+          ></a></abbr>
+           <abbr title="Cart"> <a  onclick="window.location.href='cart.html'"
+            ><i class="fas fa-shopping-cart"></i
+          ></a></abbr>
+          </div>
+        </div>
+        <div id="lower">
+            <div onclick="window.location.href='#'">BestSellers</div>
+            <div onclick="window.location.href='#'">New</div>
+            <div onclick="window.location.href='#'">Brands</div>
+            <div onclick="window.location.href='#'">SkinCare</div>
+            <div onclick="window.location.href='makeup.html'">Makeup</div>
+            <div onclick="window.location.href='hairs.html'">Hair</div>
+            <div onclick="window.location.href='#'">Bath & Body</div>
+            <div onclick="window.location.href='Fragrance.html'">Fragrance</div>
+            <div onclick="window.location.href='#'">Gift</div>
+            <div onclick="window.location.href='#'">Sale</div>
+            <div onclick="window.location.href='#'">Featured</div>
+            <div onclick="window.location.href=''">Why Clean?</div>
+          </div>
+        </div>
+    </div>
+    
+    
+    <!-- Navbar added -->
+    
+
+    <h1>Fragrances</h1>
+    <P id="front">Home / Fragrances</P>
+
+    <div id="head3rd">
+      <div class="head3-1">
+        <select id="s1" onchange="filterbrand()">
+          <option value="">BRAND</option>
+          <option value="ABBOTT">ABBOTT</option>
+          <option value="BY ROSIE JANE">BY ROSIE JANE</option>
+          <option value="DEDCOOL">DEDCOOL</option>
+          <option value="ELLIS BROOKLYN">ELLIS BROOKLYN
+          </option>
+          <option value="HERETIC">HERETIC</option>
+          <option value="PHLUR">PHLUR</option>
+          <option value="HENRY ROSE">HENRY ROSE</option>
+        </select>
+        <select name="Concern" id="s2">
+          <option value="">CONCERN</option>
+        </select>
+        <select name="Category" id="s3">
+          <option value="">CATEGORY</option>
+        </select>
+        <select name="ingredient" id="s4">
+          <option value="">INGREDIENT</option>
+        </select>
+  
+        <div class="head3-2">
+          <p>Sort By :</p>
+          <select id="s6" onchange="sortPrice()">
+            <option value="0">RELEVENCE</option>
+            <option value="high">Price: High to Low</option>
+            <option value="low">Price: Low to High</option>
+            <option value="A">Title: A to Z</option>
+            <option value="Z">Title:Z to A</option>
+          </select>
+        </div>
+  </div>
+
+    <div id="container"></div>
+
+    
+    <center><button id="loadmore">LOAD MORE</button></center>
+
+    <div id="lowerhead">Fragrances</div>
+
+     <div id="para">
+      <p> Discover a wide range of clean, non-toxic fragrances at Credo, and enjoy free samples of other safe and effective products with every purchase. Our clean, natural and non-toxic perfumes are a better way to treat your skin and your senses.  We provide the largest fragrance, candle and aromatherapy assortment, all chosen to be easy ways to feel your best.</p>
+
+
+      <p>  Infuse your life with our safe, natural home and body fragrances featuring luxurious ingredients such as natural oils, like CBD oil, in our rollerballs, sprays and candles, including vegan options. </p>
+      
+     <p> Every product at Credo is a safer, cleaner version of something you already love.  Our cruelty free and non-toxic fragrance products are a better way to create a comforting cocoon of your signature fragrance.   We provide the largest clean beauty & cruelty-free fragrance assortment  and all products have documentation for ingredient authenticity and proof of claims. </p>
+      
+    <p>  Order online or let us help you curate your personal selection of Credo’s newest clean, natural personal fragrance and home products at Credo stores in Boston, Chicago, Dallas, Los Angeles, New York, San Diego and San Francisco.  Believe in better beauty with Credo. 
+    </p>
+    </div>
+
+    <div id="masai">
+
+      <i class="i">Your Daily Dose of Beauty:<span><input id="ikhaja" type="email" placeholder="Enter your email address..."/><i class="fa-solid fa-angle-right"></i><hr></span></i>
+      <i class="fa-brands fa-instagram"><span><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i></span></i>
+  <div id="footer">
+      <div id=footer-1>
+          <h3>ABOUT US</h3>
+          <a href="#">Why Credo</a>
+          <a href="#">The Dirty List</a>
+          <a href="#">Credo for Change</a>
+          <a href="#">Creulty Free</a>
+          <a href="#">Find a Store</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+      </div>
+      <div id="footer-2">
+          <h3>RESOURCES</h3>
+          <a href="#">My Account</a>
+          <a href="#">Your Product Finder</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+      </div>
+      <div id="footer-3">
+          <h3>DISCOUNTS</h3>
+          <a href="#">Essential Workers</a>
+          <a href="#">Refer a Friend</a>
+          <a href="#">Seniors</a>
+          <a href="#">StudentBeans</a>
+      </div>
+      <div id="footer-4">
+          <h4>CONTACT US</h4>
+          <a href="#">CredoLive(Chat with us)</a>
+          <a href="#">Email us</a>
+          <a href="#">FAQs</a>
+          <a href="#">1-844-692-7336</a>
+      </div>
+      <p id="pkhaja">A portion of every purchase made on <span class="skhaja">Credo Beauty</span> is donated to <span class="skhaja">Lipstick Angels</span></p>
+      </div>
+
+<div id="footer-5">
+  <i class="fa-brands fa-cc-amex"></i>
+  <i class="fa-brands fa-apple-pay"></i>
+  <i class="fa-brands fa-cc-discover"></i>
+  <i class="fa-brands fa-vimeo-v"></i>
+  <i class="fa-brands fa-pied-piper-pp"></i>
+  <i class="fa-brands fa-cc-visa"></i>
+</div>
+<img class="imgkhaja" src="https://cdn.shopify.com/s/files/1/0637/6147/files/Credo_Logo_White_web_1_120x.png?v=1636718851"/>
+<img class="imgkhaja" src="https://cdn.shopify.com/s/files/1/0637/6147/files/Badge-reviewedby-black_271a3720-5df8-4118-a01b-d4d85bf20b7f_120x.png?v=1636718743"/>
+</div>
+
+</body>
+</html>
+
+<script src="Fragrance.js"></script>

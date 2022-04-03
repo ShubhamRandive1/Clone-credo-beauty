@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="makeup.css">
+
+    <script
+    src="https://kit.fontawesome.com/7b63b22604.js" crossorigin="anonymous"  > 
+        </script>
+
+</head>
+
+<style>
+
+     
+    </style>
+
+<body>   
+
+    <!-- navbar start -->
+              
+    <div id="sticky">
+      <div class="AnimationPart">
+          <h1> </h1>
+        </div>
+       
+        <div class="NavigationBar">
+          <div id="upper1">
+            <div id="lefttext">
+              <div><b>Stored And Services</b></div>
+              <div> <b>Rewards</b>
+              </div>
+              <div><b>Chat Live</b></div>
+            </div>
+            <div id="middle1">
+              <a href="index.html">
+                <img
+                id="logocenter"
+                src="images.jpg"  
+              alt="logo"
+              />
+              </a>
+            </div>
+            <div id="rigthtext1">
+              <i class="fas fa-search" ></i>
+              <input type="text" id="serchbar" placeholder="Serach" />
+              <abbr title="LogIn || SignUp"><a id="i1" onclick="window.location.href='signup.html'"
+                ><i class="far fa-user"></i
+              ></a></abbr>
+             <abbr title="Wishlist"> <a  onclick="window.location.href='wishlist.html'"
+              ><i class="far fa-heart"></i
+            ></a></abbr>
+             <abbr title="Cart"> <a  onclick="window.location.href='cart.html'"
+              ><i class="fas fa-shopping-cart"></i
+            ></a></abbr>
+            </div>
+          </div>
+          <div id="lower">
+              <div onclick="window.location.href='#'">BestSellers</div>
+              <div onclick="window.location.href='#'">New</div>
+              <div onclick="window.location.href='#'">Brands</div>
+              <div onclick="window.location.href='#'">SkinCare</div>
+              <div onclick="window.location.href='makeup.html'">Makeup</div>
+              <div onclick="window.location.href='hairs.html'">Hair</div>
+              <div onclick="window.location.href='#'">Bath & Body</div>
+              <div onclick="window.location.href='Fragrance.html'">Fragrance</div>
+              <div onclick="window.location.href='#'">Gift</div>
+              <div onclick="window.location.href='#'">Sale</div>
+              <div onclick="window.location.href='#'">Featured</div>
+              <div onclick="window.location.href=''">Why Clean?</div>
+            </div>
+          </div>
+      </div>
+        
+     <!--navbar end   -->
+
+     <!-- filters and heading start -->
+
+
+     <h1 id="header">Makeup</h1>
+     <p id="ptaghome"><a id="homedirect" href="index.html">Home  </a><span>/  Clean Makeup</span></p>
+     
+         <select id="sortbybrand" class="commonfilter" onchange="sortbyBrand()">
+             <option value="BRAND">BRAND</option>
+             <option value="WESTMAN ATELIER">WESTMAN ATELIER</option>
+             <option value="ILIA">ILIA</option>
+             <option value="KJAER WEIS">KJAER WEIS</option>
+             <option value="TOWER 28">TOWER 28</option>
+             <option value="JONES ROAD">JONES ROAD</option>
+             <option value="LILY LOLO">LILY LOLO</option>
+         </select>
+         <select id="sortbycategory" class="commonfilter">
+             <option value="CATEGORY">CATEGORY</option>
+         </select>
+         <select id="sortbyconcern" class="commonfilter">
+             <option value="CONCERN">CONCERN</option>
+         </select>
+         <select id="sortbyingredient" class="commonfilter">
+             <option value="INGREDIENT">INGREDIENT</option>
+         </select>
+         <select id="sortbyprice" class="commonfilter" onchange="sortbyprice()">
+             <option value="PRICE">PRICE</option>
+             <option value="less than 250">less than 250</option>
+             <option value="250-500">250-500</option>
+             <option value="500-1000">500-1000</option>
+             <option value="1000-1500">1000-1500</option>
+             <option value="1500-2000">1500-2000</option>
+             <option value="2000 & above">2000 & above</option>
+         </select><span id="itemcount">481 items</span>
+         <span class="clearfilter"><a class="clearfilter" href="#">CLEAR FILTER</a></span>
+         <span id="sortrelevant">SORT BY : <select id="sortbyrelevant" onchange="sortbyrelevant()">
+                <option value="RELEVANT">RELEVANT</option>
+                <option value="PRICE:HIGH TO LOW">PRICE: HIGH TO LOW</option>
+                <option value="PRICE:LOW TO HIGH">PRICE: LOW TO HIGH</option>
+                <option value="TITLE:A TO Z">TITLE: A TO Z</option>
+                <option value="TITLE:Z TO A">TITLE: Z TO A</option>
+         </select>
+        </span>
+     <!-- filters and heading end -->
+
+     <!-- middle part data start -->
+     <div id="container"></div>
+     <!-- middle part data end -->
+
+     <!-- description start -->
+
+     <center><button id="loadmore">LOAD MORE</button></center>
+
+     <div id="lowerhead">Makeup</div>
+
+     <div id="para">
+         <p>Discover our range of clean, natural, non-toxic, organic skincare & beauty products at Credo, and enjoy free samples of other safe and effective products with every purchase. Our clean, natural and non-toxic makeup collection is a better way to achieve a fresh, flattering glow. Enhance your features with our safe, effective, cruelty free eye makeup, lipstick, foundation and other beauty products.</p>
+         <p>Credo offers a huge variety of gentle makeup products for skin types ranging from normal to sensitive. contain naturally-derived or safe synthetic chemicals, the foundations, concealers, mascaras, eyeshadows, lipsticks, setting powders and makeup removers are safe for long term use. Credo offers clean beauty and makeup products from brands like Westman Atelier, Kosas, RMS Beauty and Kjaer Weis.</p>
+         <p>Our selection of clean, natural makeup is infused with nourishing ingredients. The botanicals provide nutrition while the pigmented makeup stays put on your skin.</p>
+         <p>Credo provides the largest clean beauty skin care assortment formulated without the ingredients found on The Dirty List™. All products have documentation for ingredient authenticity and proof of claims. Every product at Credo is a safer, cleaner and often vegan version of something you already love, and is an easy way to feel your best. Order online or let us help you curate your personal selection of Credo’s natural, clean makeup at Credo stores in Boston, Chicago, Dallas, Los Angeles, New York, San Diego and San Francisco. Believe in better beauty with Credo. </p>
+     </div>
+
+     <!-- description end -->
+
+
+<!-- footer -->
+
+<div id="masai">
+
+  <i class="i">Your Daily Dose of Beauty:<span><input id="ikhaja" type="email" placeholder="Enter your email address..."/><i class="fa-solid fa-angle-right"></i><hr></span></i>
+  <i class="fa-brands fa-instagram"><span><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-youtube"></i></span></i>
+<div id="footer">
+  <div id=footer-1>
+      <h3>ABOUT US</h3>
+      <a href="#">Why Credo</a>
+      <a href="#">The Dirty List</a>
+      <a href="#">Credo for Change</a>
+      <a href="#">Creulty Free</a>
+      <a href="#">Find a Store</a>
+      <a href="#">Blog</a>
+      <a href="#">Careers</a>
+  </div>
+  <div id="footer-2">
+      <h3>RESOURCES</h3>
+      <a href="#">My Account</a>
+      <a href="#">Your Product Finder</a>
+      <a href="#">Accessibility</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy Policy</a>
+  </div>
+  <div id="footer-3">
+      <h3>DISCOUNTS</h3>
+      <a href="#">Essential Workers</a>
+      <a href="#">Refer a Friend</a>
+      <a href="#">Seniors</a>
+      <a href="#">StudentBeans</a>
+  </div>
+  <div id="footer-4">
+      <h4>CONTACT US</h4>
+      <a href="#">CredoLive(Chat with us)</a>
+      <a href="#">Email us</a>
+      <a href="#">FAQs</a>
+      <a href="#">1-844-692-7336</a>
+  </div>
+  <p id="pkhaja">A portion of every purchase made on <span class="skhaja">Credo Beauty</span> is donated to <span class="skhaja">Lipstick Angels</span></p>
+  </div>
+
+<div id="footer-5">
+<i class="fa-brands fa-cc-amex"></i>
+<i class="fa-brands fa-apple-pay"></i>
+<i class="fa-brands fa-cc-discover"></i>
+<i class="fa-brands fa-vimeo-v"></i>
+<i class="fa-brands fa-pied-piper-pp"></i>
+<i class="fa-brands fa-cc-visa"></i>
+</div>
+<img class="imgkhaja" src="https://cdn.shopify.com/s/files/1/0637/6147/files/Credo_Logo_White_web_1_120x.png?v=1636718851"/>
+<img class="imgkhaja" src="https://cdn.shopify.com/s/files/1/0637/6147/files/Badge-reviewedby-black_271a3720-5df8-4118-a01b-d4d85bf20b7f_120x.png?v=1636718743"/>
+</div>
+
+
+<!-- footer -->
+
+</body>
+</html>
+
+<script src="makeup.js">
+</script>
